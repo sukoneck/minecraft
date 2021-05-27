@@ -9,7 +9,8 @@ Compose file for a two container Minecraft stack:
 There is a ton of cusomization available from both container providers, but generally you can just:
   1. Get the Minecraft server/plugin/etc files 
   2. Confirm the `volumes` definitions in the compose file are pointing to those files
-  3. Make it so `docker-compose up -d`
+  3. Update the MySQL passwords in the compose file 
+  4. Make it so `docker-compose up -d`
 
 # References
 
